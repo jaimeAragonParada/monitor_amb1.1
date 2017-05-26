@@ -1,0 +1,219 @@
+/*start welcomeHeader*/
+.navBarHeader{
+  background-color: #D3D3D3;
+	border-top:none !important;
+	border-left:none !important;
+	border-right:none !important;
+
+}
+.divLogo{
+	position: relative;
+  	width: 20%;
+  	float: left;
+  	border:none !important;	
+  	/*padding-bottom: 10px;*/
+  	/*background-color:blue;*/
+}
+.divForm{
+	position: relative;
+  	width: 80%;
+  	float: right; 
+  	border:none !important;	 
+  	/*background-color: blue;*/
+}
+.imgLogo{
+	/*position: relative;*/
+	/*float: left;*/
+	padding-bottom: 0px;
+
+}
+.loginForm{
+	position: relative;
+	width: 100%;
+	float: right;
+	border:none !important;	
+	/*right: -50px;*/
+	/*background-color: blue;*/
+}
+.btnLoginP{
+  background-color: #6D1A42;
+  border-color: #6D1A42;
+}
+.btnLoginS{
+  color: #6D1A42;
+  border-color: #6D1A42;
+}
+
+/*end welcomeHeader*/
+
+/*start content*/
+.divVar{
+  float: left;
+  width: 30%;
+  /*background-color: #D3D3D3;*/
+}
+.divContent{
+  text-align: center;
+  position: relative;
+  float: right;
+  width: 70%; 
+  /*height: 100%;*/   
+  /*border: none !important;  */
+}
+.bodyContent{
+  /*border: none !important;*/
+}
+
+.textContent{
+  text-align: justify;
+  padding-bottom: 100px;
+  /*border: none !important;*/
+}
+.imgVar{
+  width: 50%;
+  height: 50%;
+  /*float: left;*/
+}
+.thumbDiv{
+  /*float: left;  */
+  /*width: 33%;*/
+  text-align: center;
+  margin-bottom:1%;
+  border-left: none;
+  border-right: none;
+  border-top: 2px solid #D3D3D3;
+  border-bottom: 2px solid #D3D3D3;
+  background-color: #D3D3D3;
+  border-radius: 0px !important;
+  /*height: 200px;*/
+}
+/*end content*/
+
+/* start footer*/
+.footerLayout{  
+  margin-top: 20px;
+  border-top: 2px solid #D3D3D3;
+}
+.bg-primary {
+ background-color: #6D1A42 !important;
+}
+.divIntFooter{
+  padding-top: 20px;
+}
+.bg-circle
+{
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  padding: 14px 4px;
+  color: #ececec;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.bg-circle-outline
+{
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  color:smoke;
+  padding: 8px 2px;
+  border: 2px solid;
+  border-color: smoke;
+  border-radius: 50%;
+}
+
+.bg-circle a, a:hover, .media a:focus
+{
+  text-decoration: none !important;
+  outline: none;
+  color: #ececec;
+}
+.bg-circle-outline a, a:hover, .media a:focus
+{
+  text-decoration: none !important;
+  outline: none;
+  color: #ececec;
+}
+/*end footer*/
+
+
+/*star slider vertical*/
+/*.btn-vertical-slider{ margin-left:35px; cursor:pointer;}
+a {  cursor:pointer;}
+.carousel.vertical .carousel-inner .item {
+  -webkit-transition: 0.6s ease-in-out top;
+     -moz-transition: 0.6s ease-in-out top;
+      -ms-transition: 0.6s ease-in-out top;
+       -o-transition: 0.6s ease-in-out top;
+          transition: 0.6s ease-in-out top;
+}
+
+ .carousel.vertical .active {
+  top: 0;
+}
+
+ .carousel.vertical .next {
+  top: 100%;
+}
+
+ .carousel.vertical .prev {
+  top: -100%;
+}
+
+ .carousel.vertical .next.left,
+.carousel.vertical .prev.right {
+  top: 0;
+}
+
+ .carousel.vertical .active.left {
+  top: -100%;
+}
+.carousel.vertical .active.right {
+  top: 100%;
+}
+
+ .carousel.vertical .item {
+    left: 0;
+}​*/
+/*end slider vertical*/
+
+.thin {
+    max-width:300px;    
+}
+
+.carousel > .window {
+    overflow: hidden;
+    position: relative;
+    height: 300px;
+}
+
+/*
+    This is the item wrapper,
+    it will be animated.
+*/
+.carousel ul {
+    list-style: none;
+    height: 10000px;
+    top: 0;
+    left: 0;
+    position: absolute;
+    padding: 0px;
+}
+
+/*
+    These are the items
+*/
+.carousel li {
+    margin: 3px 0 0;
+}
+.prev, .next {
+    font-size: 30px;
+    width: 100%;
+    position: relative;
+    left: 50%;
+    margin-left: -15px;
+}
+.carousel li:first-child {
+    margin: 0;
+}
